@@ -8,3 +8,9 @@
 
 # • Mendeklarasikan class Person, dengan atribut Nama, JenisKelamin, Umur dan lengakpi dengan acces modifier
 
+# Input Code :
+
+## Deklarasi kelas Person
+```java
+public class Person {
+```
