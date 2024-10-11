@@ -20,7 +20,7 @@ public class Person {
 - public berarti kelas ini dapat diakses dari mana saja
 ```
 
-## Atribut (Variabel) Kelas :
+## • Atribut (Variabel) Kelas :
 ```java
  private String nama;
     private String jenisKelamin;
@@ -34,7 +34,7 @@ Tiga atribut dideklarasikan sebagai private, yang berarti mereka hanya bisa diak
 - umur: Menyimpan umur seseorang.
 ```
 
-## Method Setter :
+## • Method Setter :
 ### Penjelasan
 ```
 Metode setter digunakan untuk mengatur nilai dari atribut yang bersifat private.
@@ -56,7 +56,7 @@ Metode setter digunakan untuk mengatur nilai dari atribut yang bersifat private.
     }
 ```
 
-## Method Getter :
+## • Method Getter :
 ### Penjelasan
 ```
 Metode getter digunakan untuk mengambil nilai dari atribut yang bersifat private.
@@ -78,7 +78,7 @@ public String getJenisKelamin() {
     }
 ```
 
-## Main Method :
+## • Main Method :
 ### Penjelasan
 ```
 - Method ini adalah titik awal eksekusi program. Di dalam method ini, kita akan membuat dua objek (anton dan riko), mengatur nilai atribut mereka menggunakan setter, dan mengambil serta menampilkan nilai menggunakan getter.
@@ -87,7 +87,7 @@ public String getJenisKelamin() {
 public static void main(String[] args) {
 ```
 
-## Membuat Objek Anton :
+## • Membuat Objek Anton :
 ```java
 Person anton = new Person();
         anton.setNama("Anton");
@@ -99,7 +99,7 @@ Person anton = new Person();
 - Objek anton dibuat dari kelas Person. Kemudian, kita menggunakan setter (setNama(), setJenisKelamin(), dan setUmur()) untuk mengatur nilai atribut nama, jenisKelamin, dan umur untuk objek anton.
 ```
 
-## Membuat Objek Riko :
+## • Membuat Objek Riko :
 ```java
 Person riko = new Person();
         riko.setNama("Riko");
@@ -111,7 +111,7 @@ Person riko = new Person();
 - Objek riko dibuat dengan cara yang sama seperti anton, tetapi denngan nilai yang berbeda untuk atribut nama, jenisKelamin, dan umur.
 ```
 
-## Menampilkan Nilai Atribut Anton dan Riko :
+## • Menampilkan Nilai Atribut Anton dan Riko :
 ```java
 System.out.println("Nama: " + anton.getNama());
         System.out.println("Jenis Kelamin: " + anton.getJenisKelamin());
@@ -127,7 +127,7 @@ System.out.println("Nama: " + anton.getNama());
  - Kita menggunakan getter (getNama(), getJenisKelamin(), dan getUmur()) untuk mendapatkan nilai dari atribut pada objek anton dan riko, dan menampilkannya menggunakan System.out.println().
 ```
 
-# Output
+# Output :
 
 ![gambar](Tugas-Pemrograman-Orientasi-Objek-Pert4/ss2.png)
 
